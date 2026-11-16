@@ -442,11 +442,6 @@ source install/setup.bash
 
 <img width="765" height="242" alt="Screenshot from 2026-11-16 23-37-35" src="https://github.com/user-attachments/assets/9e0e7441-ba5d-4930-a320-86f1cf7eb9e1" />
 
-### Demo Video
-
-https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
-
----
 ## Running the Simulation
 
 The project uses two terminals.
@@ -468,7 +463,12 @@ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 
 Wait until the simulator has started successfully.
 
-<img width="1920" height="1080" alt="Screenshot from 2026-11-16 23-35-34" src="https://github.com/user-attachments/assets/b19b3932-1810-4372-b56f-568b7179325e" />
+
+### Demo Video
+
+https://github.com/user-attachments/assets/3a792174-f84e-4707-82be-cf6d18c06744
+
+---
 
 ### Terminal 2 — Launch the Autonomous Controller
 
