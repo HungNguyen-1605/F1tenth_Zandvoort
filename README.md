@@ -468,7 +468,7 @@ The current configuration uses the Zandvoort map.
 Example configuration:
 
 ```yaml
-map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/Zandvoort_map'
+map_path: '/home/<YOUR_WORKSPACE>/f1tenth_gym_ros/maps/Zandvoort_map'
 map_img_ext: '.png'
 ```
 
@@ -485,7 +485,7 @@ The `map_path` value refers to the map file prefix, without the `.png` extension
 For example, to use another map named `BrandsHatch`:
 
 ```yaml
-map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/BrandsHatch'
+map_path: '/home/<YOUR_WORKSPACE>/f1tenth_gym_ros/maps/BrandsHatch'
 map_img_ext: '.png'
 ```
 
