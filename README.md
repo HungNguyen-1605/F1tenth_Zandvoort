@@ -258,40 +258,62 @@ The following communication has been verified in the running simulation:
 The recommended repository organization is:
 
 ```text
-F1TENTH-Autonomous-Racing/
-│
-├── README.md
-│
-├── src/
-│   └── lidar_test/
-│       ├── package.xml
-│       ├── setup.py
-│       ├── setup.cfg
-│       ├── resource/
-│       │
-│       ├── lidar_test/
-│       │   ├── __init__.py
-│       │   ├── autonomous_controller.py
-│       │   ├── autonomous_drive.py
-│       │   └── lidar_test.py
-│       │
-│       ├── autonomous_controller_v5.py
-│       ├── generate_raceline.py
-│       └── zandvoort_raceline.csv
-│
-├── config/
-│   └── sim.yaml
-│
-├── maps/
-│   ├── Mapas-F1TENTH.zip
-│   ├── Mapas-F1TENTH-v2.zip
-│   └── README.md
-│
-├── screenshots/
-│
+/home/<YOUR_WORKSPACE>/F1Tenth-Repository
+├── f1tenth_gym_ros
+│   ├── config
+│   │   └── sim.yaml
+│   ├── f1tenth_gym_ros
+│   │   ├── gym_bridge.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── gym_bridge.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── launch
+│   │   ├── ego_racecar.xacro
+│   │   ├── gym_bridge_launch.py
+│   │   ├── gym_bridge.rviz
+│   │   └── opp_racecar.xacro
+│   ├── LICENSE
+│   ├── maps
+│   │   ├── levineB.png
+│   │   ├── levineB.yaml
+│   │   ├── levine.png
+│   │   ├── levine.yaml
+│   │   ├── Sakhir_map.png
+│   │   ├── Sakhir_map.yaml
+│   │   ├── Spielberg_map.png
+│   │   ├── Spielberg_map.yaml
+│   │   ├── Spielberg_obs_map.png
+│   │   ├── Spielberg_obs_map.yaml
+│   │   ├── Zandvoort_map.png
+│   │   └── Zandvoort_map.yaml
+│   ├── package.xml
+│   ├── resource
+│   │   └── f1tenth_gym_ros
+│   ├── setup.cfg
+│   ├── setup.py
+│   └── test
+│       ├── test_copyright.py
+│       ├── test_flake8.py
+│       └── test_pep257.py
 ├── LICENSE
-│
-└── .gitignore
+├── lidar_test
+│   ├── autonomous_controller_v5.py
+│   ├── lidar_test
+│   │   ├── autonomous_controller.py
+│   │   ├── autonomous_drive.py
+│   │   ├── __init__.py
+│   │   ├── lidar_test.py
+│   │   └── __pycache__
+│   │       ├── autonomous_controller.cpython-310.pyc
+│   │       ├── autonomous_drive.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── package.xml
+│   ├── setup.cfg
+│   ├── setup.py
+│   └── zandvoort_raceline.csv
+└── README.md
+
 ```
 
 ### Important Files
