@@ -375,7 +375,7 @@ cd ~/F1Tenth-Repository
 ### Clone the Repository
 
 ```bash
-cd ~/F1Tenth-Repository
+cd ~/F1Tenth-Repository/src
 git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git
 ```
 
