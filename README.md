@@ -9,7 +9,7 @@
 \</p>
 
 \<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros](https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros)">
+&#x20; \<img src="[https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros](https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros)">HungNguyen-1605
 &#x20; \<img src="[https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu)">
 &#x20; \<img src="[https://img.shields.io/badge/Python-3-green?logo=python](https://img.shields.io/badge/Python-3-green?logo=python)">
 &#x20; \<img src="[https://img.shields.io/badge/Platform-F1TENTH-red](https://img.shields.io/badge/Platform-F1TENTH-red)">
@@ -56,7 +56,7 @@ The project focuses on:
 
 ### Simulation Preview
 
-**\<INSERT SIMULATION SCREENSHOT SHOWING THE F1TENTH VEHICLE ON THE TRACK HERE>**
+![Simulation Preview](screenshots/SIMULATION SCREENSHOT SHOWING THE F1TENTH VEHICLE ON THE TRACK.png)
 
 ---
 
