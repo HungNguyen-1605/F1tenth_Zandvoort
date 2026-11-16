@@ -56,8 +56,7 @@ The project focuses on:
 
 ### Simulation Preview
 
-![Simulation Preview](screenshots/SIMULATION SCREENSHOT SHOWING THE F1TENTH VEHICLE ON THE TRACK.png)
-
+<img width="1920" height="1080" alt="SIMULATION SCREENSHOT SHOWING THE F1TENTH VEHICLE ON THE TRACK" src="https://github.com/user-attachments/assets/234e2030-dbd7-4856-a9f2-6318232c571a" />
 ---
 
 ## Project Objectives
@@ -100,8 +99,7 @@ The simulator provides a virtual racing vehicle, track maps, LiDAR sensor data, 
 
 ### Simulation Screenshot
 
-**\<INSERT SCREENSHOT OF THE F1TENTH SIMULATION ENVIRONMENT HERE>**
-
+<img width="1604" height="906" alt="SCREENSHOT OF THE F1TENTH SIMULATION ENVIRONMENT" src="https://github.com/user-attachments/assets/e2a99a15-ea3c-424d-acb2-d32c63d24787" />
 ---
 
 ## System Architecture
@@ -109,12 +107,7 @@ The simulator provides a virtual racing vehicle, track maps, LiDAR sensor data, 
 The system consists of two main components:
 
 - **F1TENTH Gym ROS Simulator**
-- **Autonomous Disparity Controller**h và thêm tiêu đề:
-  ```
-  h và thêm tiêu đề:
-
-
-  ```
+- **LiDAR-Based Autonomous Controller**
 
 The simulator publishes LiDAR and odometry information. The autonomous controller processes these inputs and publishes driving commands to control the ego vehicle.
 
@@ -215,8 +208,7 @@ Vehicle speed is adjusted according to driving conditions.
 
 The objective is to balance driving performance and safety, especially when approaching obstacles or navigating turns.
 
-**\<INSERT DIAGRAM OR SCREENSHOT ILLUSTRATING LIDAR SCANNING, DISPARITY EXTENSION, AND GAP SELECTION HERE>**
-
+<img width="849" height="786" alt="Screenshot from 2026-11-16 23-18-42" src="https://github.com/user-attachments/assets/9485ded5-81b0-4f5c-8dc5-899e68d0ee15" />
 ---
 
 ## ROS 2 Communication
@@ -254,8 +246,7 @@ The following communication has been verified in the running simulation:
 - The controller subscribes to odometry.
 - The controller publishes driving commands through `/drive`.
 
-**\<INSERT TERMINAL SCREENSHOT SHOWING ROS 2 NODE LIST AND TOPIC INFORMATION HERE>**
-
+<img width="892" height="776" alt="Screenshot from 2026-11-16 23-21-57" src="https://github.com/user-attachments/assets/20203f05-280c-4760-8695-8cbb0716c5a2" />
 ---
 
 ## Repository Structure
@@ -293,11 +284,6 @@ F1TENTH-Autonomous-Racing/
 │   └── README.md
 │
 ├── screenshots/
-│
-├── videos/
-│
-├── results/
-│   └── lap_results.csv
 │
 ├── LICENSE
 │
@@ -358,8 +344,7 @@ Each usable map should have its corresponding image (`.png`) and configuration (
 
 ### Map Preview
 
-**\<INSERT SCREENSHOT SHOWING THE AVAILABLE MAP FILES OR MAP COLLECTION PREVIEW HERE>**
-
+<img width="800" height="800" alt="Zandvoort_map" src="https://github.com/user-attachments/assets/d6b79164-7379-48b9-ad6f-79570b07a9eb" /> <img width="524" height="230" alt="Screenshot from 2026-11-16 23-28-12" src="https://github.com/user-attachments/assets/3c118024-3e8f-4d38-b884-ba8753d09fec" />
 ---
 
 ## Installation
@@ -387,7 +372,7 @@ cd ~/F1Tenth-Repository
 
 ```bash
 cd ~/F1Tenth-Repository
-git clone <YOUR_GITHUB_REPOSITORY_URL> .
+git clone git@github.com:HungNguyen-1605/ftg_zandvoort.git
 ```
 
 If you already have the repository, simply enter its directory.
@@ -437,7 +422,7 @@ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 
 Wait until the simulator has started successfully.
 
-**\<INSERT SCREENSHOT OF THE SIMULATOR RUNNING HERE>**
+<img width="1920" height="1080" alt="Screenshot from 2026-11-16 23-35-34" src="https://github.com/user-attachments/assets/b19b3932-1810-4372-b56f-568b7179325e" />
 
 ### Terminal 2 — Launch the Autonomous Controller
 
@@ -468,9 +453,11 @@ The controller should start and begin processing LiDAR data.
 /drive
 ```
 
-**\<INSERT TERMINAL SCREENSHOT SHOWING THE AUTONOMOUS CONTROLLER STARTING SUCCESSFULLY HERE>**
+<img width="765" height="242" alt="Screenshot from 2026-11-16 23-37-35" src="https://github.com/user-attachments/assets/9e0e7441-ba5d-4930-a320-86f1cf7eb9e1" />
 
-**\<INSERT SIMULATION SCREENSHOT SHOWING THE VEHICLE DRIVING AUTONOMOUSLY HERE>**
+### Demo Video
+
+https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
 
 ---
 
@@ -483,7 +470,7 @@ The current configuration uses the Zandvoort map.
 Example configuration:
 
 ```yaml
-map_path: '/YOUR_WORKSPACE/src/f1tenth_gym_ros/maps/Zandvoort_map'
+map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/Zandvoort_map'
 map_img_ext: '.png'
 ```
 
@@ -500,7 +487,7 @@ The `map_path` value refers to the map file prefix, without the `.png` extension
 For example, to use another map named `BrandsHatch`:
 
 ```yaml
-map_path: '/YOUR_WORKSPACE/src/f1tenth_gym_ros/maps/BrandsHatch'
+map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/BrandsHatch'
 map_img_ext: '.png'
 ```
 
@@ -556,7 +543,7 @@ The main evaluation criteria are:
 
 ### Simulation Testing
 
-**\<INSERT SCREENSHOT SHOWING THE VEHICLE NAVIGATING A TURN OR A COMPLEX SECTION OF THE TRAC**ạn có thể kéo thả video vào phần nội dung của GitHub Issue, Discussion hoặc Pull Request. GitHub sẽ tạo đường dẫn video để bạn sử dụng.**K HERE>**
+(https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88)
 
 **\<INSERT SCREENSHOT SHOWING THE VEHICLE COMPLETING A LAP HERE>**
 
