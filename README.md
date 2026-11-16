@@ -440,6 +440,7 @@ The project uses two terminals.
 
 ```bash
 cd ~/F1Tenth-Repository
+rmdir src
 mv ftg_zandvoort/* ftg_zandvoort/.* . 2>/dev/null
 rmdir ftg_zandvoort
 ```
