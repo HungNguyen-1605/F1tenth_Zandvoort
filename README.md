@@ -443,7 +443,7 @@ cd ~/F1Tenth-Repository/src
 mv ftg_zandvoort/* ftg_zandvoort/.* . 2>/dev/null
 rmdir ftg_zandvoort
 ```
-this one use to extract files and remove empty file
+this one ís used to extract files and remove empty file
 ```bash
 cd ~/F1Tenth-Repository
 
