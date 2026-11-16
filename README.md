@@ -570,8 +570,7 @@ The main evaluation criteria are:
 
 ### Simulation Testing
 
-https://github.com/user-attachments/assets/79099e1d-ef90-40f3-b3d5-2bf019fc1a8d
-
+**https://youtu.be/ALDgql1fcKI**
 ---
 
 ## Experimental Results
