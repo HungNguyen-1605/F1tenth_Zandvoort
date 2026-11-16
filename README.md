@@ -363,20 +363,13 @@ The project requires:
 - F1TENTH Gym ROS simulator
 - Required ROS 2 message packages and dependencies
 
-### Create a ROS 2 Workspace
-
-If you do not already have a workspace:
-
-```bash
-mkdir -p ~/F1Tenth-Repository/src
-cd ~/F1Tenth-Repository
-```
-
 ### Clone the Repository
 
+Clone the workspace directly into your home directory:
+
 ```bash
-cd ~/F1Tenth-Repository/src
-git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git
+git clone [https://github.com/HungNguyen-1605/ftg_zandvoort.git](https://github.com/HungNguyen-1605/ftg_zandvoort.git) ~/F1Tenth-Repository
+cd ~/F1Tenth-Repository
 ```
 
 If you already have the repository, simply enter its directory.
