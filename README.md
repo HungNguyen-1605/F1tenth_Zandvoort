@@ -459,6 +459,10 @@ sed -i "s|map_path:.*|map_path: '$(pwd)/f1tenth_gym_ros/maps/Zandvoort_map'|" f1
 colcon build --packages-select f1tenth_gym_ros
 source /opt/ros/humble/setup.bash
 source install/setup.bash
+```
+To run the simulation: 
+```bash
+cd ~/F1Tenth-Repository
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 
