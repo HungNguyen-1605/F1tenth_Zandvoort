@@ -458,6 +458,9 @@ source install/setup.bash
 To run the simulation: 
 ```bash
 cd ~/F1Tenth-Repository
+colcon build --packages-select f1tenth_gym_ros
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 
