@@ -439,8 +439,7 @@ The project uses two terminals.
 ### Terminal 1 — Launch the F1TENTH Simulator
 
 ```bash
-cd ~/F1Tenth-Repository
-rmdir src
+cd ~/F1Tenth-Repository/src
 mv ftg_zandvoort/* ftg_zandvoort/.* . 2>/dev/null
 rmdir ftg_zandvoort
 ```
