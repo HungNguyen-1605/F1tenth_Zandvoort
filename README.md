@@ -15,6 +15,10 @@
   <img src="https://img.shields.io/badge/Platform-F1TENTH-red" alt="Platform F1TENTH">
 </p>
 
+- **Author:** Nguyen Phi Hung
+- **Course:** Vehicles Sensor - Prof.Nabih Pico
+- **Assessment:** F1Tenth Reactive Controller Competition 
+- **Assigned Track:** Zandvoort (Group 4)
 ---
 
 ## Table of Contents
