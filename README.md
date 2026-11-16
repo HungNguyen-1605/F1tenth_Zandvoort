@@ -479,7 +479,7 @@ Open another terminal:
 
 ```bash
 cd ~/F1Tenth-Repository
-
+colcon build --packages-select f1tenth_gym_ros
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 
