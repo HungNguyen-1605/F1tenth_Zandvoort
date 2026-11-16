@@ -439,17 +439,11 @@ The project uses two terminals.
 ### Terminal 1 — Launch the F1TENTH Simulator
 
 ```bash
-cd ~/F1Tenth-Repository/src
-mv ftg_zandvoort/* ftg_zandvoort/.* . 2>/dev/null
-rmdir ftg_zandvoort
-```
-this one ís used to extract files and remove empty file
-```bash
 cd ~/F1Tenth-Repository
-
+sed -i "s|<YOUR_USERNAME>|$USER|g" src/f1tenth_gym_ros/config/sim.yaml
+colcon build --packages-select f1tenth_gym_ros
 source /opt/ros/humble/setup.bash
 source install/setup.bash
-
 ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 
