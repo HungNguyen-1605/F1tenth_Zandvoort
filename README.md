@@ -376,7 +376,7 @@ cd ~/F1Tenth-Repository
 
 ```bash
 cd ~/F1Tenth-Repository
-git clone git@github.com:HungNguyen-1605/ftg_zandvoort.git
+git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git
 ```
 
 If you already have the repository, simply enter its directory.
