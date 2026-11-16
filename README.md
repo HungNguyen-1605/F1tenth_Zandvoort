@@ -368,7 +368,7 @@ The project requires:
 Clone the workspace directly into your home directory:
 
 ```bash
-git clone [https://github.com/HungNguyen-1605/ftg_zandvoort.git](https://github.com/HungNguyen-1605/ftg_zandvoort.git) ~/F1Tenth-Repository
+git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git ~/F1Tenth-Repository
 cd ~/F1Tenth-Repository
 ```
 
