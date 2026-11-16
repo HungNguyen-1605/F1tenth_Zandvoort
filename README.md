@@ -568,6 +568,8 @@ The main evaluation criteria are:
 5. Record lap count and lap time.
 6. Repeat testing after adjusting controller parameters.
 
+<img width="1920" height="1080" alt="Screenshot from 2026-11-17 03-05-47" src="https://github.com/user-attachments/assets/d792e230-64f7-4ec7-9627-a7d3e1ab2e24" />
+
 
 ## Experimental Results
 
