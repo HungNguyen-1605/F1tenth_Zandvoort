@@ -568,15 +568,12 @@ The main evaluation criteria are:
 5. Record lap count and lap time.
 6. Repeat testing after adjusting controller parameters.
 
-### Simulation Testing
+
+## Experimental Results
 
 **https://youtu.be/ALDgql1fcKI**
 
 ---
-
-## Experimental Results
-**Final_test** 
-https://youtu.be/inIoZ_aoyaQ
 
 Experimental results are recorded during simulation testing.
 
