@@ -552,6 +552,8 @@ https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
 ---
 
 ## Experimental Results
+**Final_test** 
+https://youtu.be/inIoZ_aoyaQ
 
 Experimental results are recorded during simulation testing.
 
@@ -588,11 +590,7 @@ The following table provides a format for documenting the experimental results.
 | Lowest Recorded Speed | —      |
 | Number of Collisions  | —      |
 
-**\<INSERT TERMINAL SCREENSHOT SHOWING THE COMPLETE LAP TIMER SUMMARY HERE>**
 
-**\<INSERT SIMULATION SCREENSHOT SHOWING THE VEHICLE AFTER THE TEST RUN HERE>**
-
-**\<INSERT VIDEO OR GIF OF THE AUTONOMOUS VEHICLE COMPLETING LAPS HERE, IF AVAILABLE>**
 
 ---
 
