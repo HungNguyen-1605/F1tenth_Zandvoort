@@ -409,6 +409,29 @@ source install/setup.bash
 
 ---
 
+
+
+### Expected ROS 2 Node
+
+```text
+/disparity_controller
+```
+
+### Expected Topics
+
+```text
+/scan
+/ego_racecar/odom
+/drive
+```
+
+<img width="765" height="242" alt="Screenshot from 2026-11-16 23-37-35" src="https://github.com/user-attachments/assets/9e0e7441-ba5d-4930-a320-86f1cf7eb9e1" />
+
+### Demo Video
+
+https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
+
+---
 ## Running the Simulation
 
 The project uses two terminals.
@@ -442,28 +465,6 @@ ros2 run lidar_test autonomous_drive
 ```
 
 The controller should start and begin processing LiDAR data.
-
-### Expected ROS 2 Node
-
-```text
-/disparity_controller
-```
-
-### Expected Topics
-
-```text
-/scan
-/ego_racecar/odom
-/drive
-```
-
-<img width="765" height="242" alt="Screenshot from 2026-11-16 23-37-35" src="https://github.com/user-attachments/assets/9e0e7441-ba5d-4930-a320-86f1cf7eb9e1" />
-
-### Demo Video
-
-https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
-
----
 
 ## Changing the Track
 
