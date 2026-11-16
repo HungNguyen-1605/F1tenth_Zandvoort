@@ -440,6 +440,12 @@ The project uses two terminals.
 
 ```bash
 cd ~/F1Tenth-Repository
+mv ftg_zandvoort/* ftg_zandvoort/.* . 2>/dev/null
+rmdir ftg_zandvoort
+```
+
+```bash
+cd ~/F1Tenth-Repository
 
 source /opt/ros/humble/setup.bash
 source install/setup.bash
