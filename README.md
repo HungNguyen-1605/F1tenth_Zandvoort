@@ -1,19 +1,19 @@
 # F1TENTH Autonomous Racing
 
-\<p align="center">
-&#x20; \<strong>LiDAR-Based Autonomous Racing Using Follow-the-Gap and Disparity Extender\</strong>
-\</p>
+<p align="center">
+  <strong>LiDAR-Based Autonomous Racing Using Follow-the-Gap and Disparity Extender</strong>
+</p>
 
-\<p align="center">
-&#x20; A ROS 2 autonomous driving project developed and tested in the F1TENTH Gym simulation environment.
-\</p>
+<p align="center">
+  A ROS 2 autonomous driving project developed and tested in the F1TENTH Gym simulation environment.
+</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros](https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros)">HungNguyen-1605
-&#x20; \<img src="[https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu)">
-&#x20; \<img src="[https://img.shields.io/badge/Python-3-green?logo=python](https://img.shields.io/badge/Python-3-green?logo=python)">
-&#x20; \<img src="[https://img.shields.io/badge/Platform-F1TENTH-red](https://img.shields.io/badge/Platform-F1TENTH-red)">
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS_2-Humble-blue?logo=ros" alt="ROS 2 Humble">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04-orange?logo=ubuntu" alt="Ubuntu 22.04">
+  <img src="https://img.shields.io/badge/Python-3-green?logo=python" alt="Python 3">
+  <img src="https://img.shields.io/badge/Platform-F1TENTH-red" alt="Platform F1TENTH">
+</p>
 
 ---
 
