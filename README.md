@@ -543,9 +543,7 @@ The main evaluation criteria are:
 
 ### Simulation Testing
 
-(https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88)
-
-**\<INSERT SCREENSHOT SHOWING THE VEHICLE COMPLETING A LAP HERE>**
+https://github.com/user-attachments/assets/57948253-24d6-4502-bc36-123e9b73cc88
 
 ---
 
