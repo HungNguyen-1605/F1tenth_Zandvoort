@@ -393,7 +393,7 @@ Clone the workspace directly into your home directory:
 git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git ~/F1Tenth-Repository
 cd ~/F1Tenth-Repository
 ```
-
+This command will automatically get computer name. 
 If you already have the repository, simply enter its directory.
 
 ### Install Dependencies
@@ -447,7 +447,7 @@ source install/setup.bash
 The project uses two terminals.
 
 ### Terminal 1 — Launch the F1TENTH Simulator
-
+**Setting the directory to getting information for the map**
 ```bash
 cd ~/F1Tenth-Repository
 sed -i "s|map_path:.*|map_path: '$(pwd)/f1tenth_gym_ros/maps/Zandvoort_map'|" f1tenth_gym_ros/config/sim.yaml
@@ -455,7 +455,8 @@ colcon build --packages-select f1tenth_gym_ros
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 ```
-To run the simulation: 
+
+**To run the simulation:**
 ```bash
 cd ~/F1Tenth-Repository
 colcon build --packages-select f1tenth_gym_ros
@@ -506,8 +507,9 @@ To use another track:
 1. Download or locate the desired map archive.
 2. Extract the archive.
 3. Copy the desired map files into the simulator's `maps` directory.
-4. Update the `map_path` parameter in `sim.yaml`.
-5. Restart the simulator.
+4. Update the `map_path` parameter in `sim.yaml`.You can follow this directory to fine the file "F1Tenth-Repository/F1tenth_Zandvoort
+/f1tenth_gym_ros/config/sim.yaml.
+5. Restart the simulator. Use the "To run the simulation" part.
 
 The `map_path` value refers to the map file prefix, without the `.png` extension.
 
