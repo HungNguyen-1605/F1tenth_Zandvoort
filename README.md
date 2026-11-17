@@ -507,8 +507,7 @@ To use another track:
 1. Download or locate the desired map archive.
 2. Extract the archive.
 3. Copy the desired map files into the simulator's `maps` directory.
-4. Update the `map_path` parameter in `sim.yaml`.You can follow this directory to fine the file "F1Tenth-Repository/F1tenth_Zandvoort
-/f1tenth_gym_ros/config/sim.yaml.
+4. Update the `map_path` parameter in `sim.yaml`.
 5. Restart the simulator. Use the "To run the simulation" part.
 
 The `map_path` value refers to the map file prefix, without the `.png` extension.
@@ -531,7 +530,7 @@ Make sure the corresponding map image and YAML configuration are present in the 
 The simulator configuration is located in:
 
 ```text
-config/sim.yaml
+F1Tenth-Repository/F1tenth_Zandvoort/f1tenth_gym_ros/config/sim.yaml
 ```
 
 The configuration file contains settings related to:
