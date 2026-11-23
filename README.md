@@ -450,7 +450,7 @@ The project uses two terminals.
 **Setting the directory to getting information for the map**
 ```bash
 cd ~/F1Tenth-Repository
-sed -i "s|map_path:.*|map_path: '$(pwd)/f1tenth_gym_ros/maps/Zandvoort_map'|" f1tenth_gym_ros/config/sim.yaml
+sed -i "s|map_path:.*|map_path: '$(pwd)/src/f1tenth_gym_ros/maps/Zandvoort_map'|" src/f1tenth_gym_ros/config/sim.yaml
 colcon build --packages-select f1tenth_gym_ros
 source /opt/ros/humble/setup.bash
 source install/setup.bash
