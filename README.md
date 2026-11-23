@@ -390,7 +390,7 @@ The project requires:
 Clone the workspace directly into your home directory:
 
 ```bash
-git clone https://github.com/HungNguyen-1605/ftg_zandvoort.git ~/F1Tenth-Repository
+git clone https://github.com/HungNguyen-1605/Ftg_zandvoort.git ~/F1Tenth-Repository
 cd ~/F1Tenth-Repository
 ```
 This command will automatically get computer name. 
@@ -479,7 +479,7 @@ https://github.com/user-attachments/assets/3a792174-f84e-4707-82be-cf6d18c06744
 Open another terminal:
 
 ```bash
-cd ~/F1Tenth-Repository
+cd ~/F1Tenth-Repository/
 colcon build --packages-select lidar_test
 source /opt/ros/humble/setup.bash
 source install/setup.bash
@@ -498,7 +498,7 @@ The current configuration uses the Zandvoort map.
 Example configuration:
 
 ```yaml
-map_path: '/home/<YOUR_WORKSPACE>/f1tenth_gym_ros/maps/Zandvoort_map'
+map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/Zandvoort_map'
 map_img_ext: '.png'
 ```
 
@@ -515,7 +515,7 @@ The `map_path` value refers to the map file prefix, without the `.png` extension
 For example, to use another map named `BrandsHatch`:
 
 ```yaml
-map_path: '/home/<YOUR_WORKSPACE>/f1tenth_gym_ros/maps/BrandsHatch'
+map_path: '/home/<YOUR_WORKSPACE>/src/f1tenth_gym_ros/maps/BrandsHatch'
 map_img_ext: '.png'
 ```
 
@@ -530,7 +530,7 @@ Make sure the corresponding map image and YAML configuration are present in the 
 The simulator configuration is located in:
 
 ```text
-F1Tenth-Repository/F1tenth_Zandvoort/f1tenth_gym_ros/config/sim.yaml
+F1Tenth-Repository/F1tenth_Zandvoort/src/f1tenth_gym_ros/config/sim.yaml
 ```
 
 The configuration file contains settings related to:
@@ -548,7 +548,7 @@ Users can modify these settings according to their simulation requirements.
 
 ## Testing and Evaluation
 
-The controller is evaluated in the F1TENTH Gym simulation environment.
+The controller is evaluated in the F1TENTH Gym simulation environmenps/Zandvoort_map'|" f1tenth_gym_ros/config/sim.yamlt.
 
 The main evaluation criteria are:
 
